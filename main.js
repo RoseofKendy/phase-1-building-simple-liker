@@ -1,6 +1,8 @@
-// Defining text characters for the empty and full hearts for you to use later.
+document.addEventListener('DOMContentLoaded', () => {
 const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
+const modal = document.querySelector('#modal');
+modal.classList.add('hidden'); 
 
 // Your JavaScript code goes here!
 
@@ -23,3 +25,4 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
     }, 300);
   });
 }
+});
